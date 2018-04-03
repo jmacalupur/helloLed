@@ -30,6 +30,7 @@ Arduino es una tarjeta o placa de prototipos flexibles que te permite crear proy
 
 2. Luego, procedemos a armar el sistema en el hardware. Usaremos una maquetación virtual en www.tinkercad.com:
 
+<<<<<<< HEAD
 []!()
 
 Aunque también, si tienes un arduino a la mano puedes ensamblarlo:
@@ -39,6 +40,19 @@ Aunque también, si tienes un arduino a la mano puedes ensamblarlo:
 3. A fin de evitar que el LED se queme deibo a la alta intensidad de corriente que recibiría, se ha optado por colocar una resistencia de 220Ω. 
 
 	¿Cómo lo calculé?. Pues por medio de la Ley de Ohm:
+=======
+[]!(https://github.com/jmacalupur/helloLed/blob/master/01arduinoTinkerCad.png)
+
+Aunque también, si tienes un arduino a la mano puedes ensamblarlo:
+
+[]!(https://github.com/jmacalupur/helloLed/blob/master/02fotoArduinoFisico.JPG)
+
+Si hacemos un zoom de la imagen podemos ver la conexión de la Protoboard
+[]!(https://github.com/jmacalupur/helloLed/blob/master/03arduinoZoom.png)
+
+
+3. A fin de evitar que el LED sufra un daño debibo a la alta intensidad de corriente que recibiría, optemos por colocar una resistencia de 220Ω. Pero, ¿Cómo lo calculé?. Pues por medio de la Ley de Ohm:
+>>>>>>> develop
 
 	V = I x R
 
@@ -85,25 +99,34 @@ delay(1000);
 }
 ```
 
-6. Ahora, sólo nos queda subir nuestro código y hacerlo funcionar. 
+6. El código debe de quedarte así:
 
-	6.1. Primero conectamos la placa Arduino a nuestra computadora con el cable USB-B. 
+[]!(https://github.com/jmacalupur/helloLed/blob/master/04arduinoCode.png)
 
-	6.2. En la ventana del IDE de arduino, aparece un botón de Salvar (Guardar como...), hacemos click ahí y lo guardamos en alguna parte de nuestro computador:
+7. Ahora, sólo nos queda subir nuestro código y hacerlo funcionar. 
 
-	[]!()
+	7.1. Primero conectamos la placa Arduino a nuestra computadora con el cable USB-B. 
 
-	6.3. Recuerda que debes de asignar la placa Arduino UNO y el puerto al cual se encuentra conectado:
+	7.2. En la ventana del IDE de arduino, aparece un botón de Salvar (Guardar como...), hacemos click ahí y lo guardamos en alguna parte de nuestro computador:
 
-	[]!()
+	[]!(https://github.com/jmacalupur/helloLed/blob/master/05arduinoSave.png)
 
-	6.4 Luego verifica que el código se encuentra bien:
-
-	[]!()
-
-	6.5 Finalmente, sube el código a la placa Arduino y ¡enjoy!
+	7.3. Recuerda que debes de asignar la placa Arduino UNO y el puerto al cual se encuentra conectado:
 
 	[]!()
+	[]!()
+
+	7.4 Luego verifica que el código se encuentra bien:
+
+	[]!(https://github.com/jmacalupur/helloLed/blob/master/06arduinoVerify.png)
+
+	7.5 Finalmente, sube el código a la placa Arduino y ¡enjoy!
+
+	[]!(https://github.com/jmacalupur/helloLed/blob/master/07arduinoSend.png)
+
+	[]!(https://github.com/jmacalupur/helloLed/blob/master/08arduinoSendZoom.png)	
+	Botón de enviar
+	
 
 Eso es todo. Ahora ya sabemos:
 
