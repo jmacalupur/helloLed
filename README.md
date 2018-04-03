@@ -98,12 +98,12 @@ delay(1000);
 
 	7.2. En la ventana del IDE de arduino, aparece un botón de Salvar (Guardar como...), hacemos click ahí y lo guardamos en alguna parte de nuestro computador:
 
-	[]!(https://github.com/jmacalupur/helloLed/blob/master/05arduinoSave.png)
+	![](https://github.com/jmacalupur/helloLed/blob/master/05arduinoSave.png)
 
 	7.3. Recuerda que debes de asignar la placa Arduino UNO y el puerto al cual se encuentra conectado:
 
 	![](https://github.com/jmacalupur/helloLed/blob/master/09arduinoPlaca.png)
-	
+
 	![](https://github.com/jmacalupur/helloLed/blob/master/10arduinoPuerto.png)
 
 	7.4 Luego verifica que el código se encuentra bien:
